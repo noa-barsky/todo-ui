@@ -24,6 +24,19 @@
   border-radius: 10px;
   border: 2px solid #CCD8F0;
 }
+.todo-list input {
+  outline: none;
+  border: 0px solid white;
+  text-align: center;
+}
+.todo-list .adder {
+  padding-left: 85%;
+  display: inline-block;
+}
+.todo-list .adder img {
+  padding-top: 0;
+  position: absolute;
+}
 
 .todo-header img {
   height: 40%;
