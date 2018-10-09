@@ -19,9 +19,11 @@
                 <h1>Dashboard</h1>
             </div>
           </div>
-
+    
           <div class="row">
-              <div class="col-md-6">
+
+              <div class="col-md-6">              
+
                     <div class="row">
                             <div class="col-sm-12"> 
                                 <div class="todo-header">
@@ -29,7 +31,7 @@
                             </div>
                             </div>
                           </div>
-                  
+                          <div class="todo-half">
                           <div class="container">
                           <div class="row">
                                   <div class="col-md-12"> 
@@ -56,16 +58,28 @@
                                 </div>
                             </div>
               </div>
+
+</div>
+        
               <div class="col-md-6">
-                  This will be google calendar
+                  <div class="cal-side">
+                  <div class="cal-header"><p>Upcoming Calendar Events</p></div>
+                  <pre id="content"></pre>
+                  <button id="authorize_button" class="btn btn-lg btn-primary" >Google Calendar Sign In</button>
+                  <button id="signout_button" class="btn btn-lg btn-primary">Sign out</button>
+              
+                </div>
                 </div>
           </div>
 
 
 
 <script src="script.js">
-
 </script>
+    <script async defer src="https://apis.google.com/js/api.js"
+    onload="this.onload=function(){};handleClientLoad()"
+    onreadystatechange="if (this.readyState === 'complete') this.onload()">
+  </script>
 
     </body>
 </html>
