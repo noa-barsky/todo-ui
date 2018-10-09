@@ -45,8 +45,7 @@ function init(){
 /*Google calendar api code*/
 
     // Client ID and API key from the Developer Console
-    var CLIENT_ID = '131665949872-ptpi7l5kc5okc3t9dfqipfj8ad6mtoed.apps.googleusercontent.com';
-    var API_KEY = 'AIzaSyDaO_Ay6ruzywcH5xYOEZT4Y2OXfA7CaHA';
+
 
     // Array of API discovery doc URLs for APIs used by the quickstart
     var DISCOVERY_DOCS = ["https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest"];
